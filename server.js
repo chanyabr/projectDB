@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',            // เปลี่ยนตาม user ของคุณ
-    password: 'cha24wee',    // เปลี่ยนตามรหัสของคุณ
+    password: '',    // เปลี่ยนตามรหัสของคุณ
     database: 'food_delivery'
 });
 
